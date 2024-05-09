@@ -1,0 +1,339 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dF:/Aloshka/Graduation Project/Digital/synch and coeff estimation/RTL/back up/128_SDF_FFT
+T_opt
+!s110 1683104333
+VzIW^0KYW27FlYdj[UllIY3
+Z2 04 10 4 work Top_FFT_tb fast 0
+=1-c01850960e99-6452224c-2fe-546c
+Z3 !s124 OEM100
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2021.1;73
+R1
+T_opt1
+!s110 1683633008
+VG7WKJiHF?W0WTUPj[zBBK2
+R2
+=1-c01850960e99-645a336f-3dd-4f0c
+R3
+R4
+R5
+n@_opt1
+R6
+vButterfly
+Z7 !s110 1683633006
+!i10b 1
+!s100 EFzX9IEFdHJ`TUZhgD:Bf2
+I:DQ9AcL2;@ITCU7;A_`0X0
+Z8 dF:/Aloshka/Graduation Project/Digital/synch and coeff estimation/RTL/xcorrelation/128_SDF_FFT
+w1682189151
+8Butterfly.v
+FButterfly.v
+!i122 8
+L0 1 30
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z11 !s108 1683633006.000000
+Z12 !s107 delay_unit.v|Twiddle_Factor.v|Twiddle_Address_gen.v|Top_controller.v|Top_FFT_tb.v|Top_FFT.v|SDF_Stage.v|Multiplier.v|Memory_Shifter.v|MUX1_Control_unit.v|Complex_Multiplier.v|Complex_MUX2x1.v|Butterfly.v|
+Z13 !s90 -reportprogress|300|Butterfly.v|Complex_MUX2x1.v|Complex_Multiplier.v|MUX1_Control_unit.v|Memory_Shifter.v|Multiplier.v|SDF_Stage.v|Top_FFT.v|Top_FFT_tb.v|Top_controller.v|Twiddle_Address_gen.v|Twiddle_Factor.v|delay_unit.v|
+!i113 0
+Z14 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+n@butterfly
+vComplex_Multiplier
+R7
+!i10b 1
+!s100 aza[LVmPWZR=3TkW`:h6G1
+I0=zV>FUIaRP[kccT2SY@C1
+R8
+w1682190347
+8Complex_Multiplier.v
+FComplex_Multiplier.v
+!i122 8
+L0 1 39
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R5
+n@complex_@multiplier
+vComplex_MUX2x1
+R7
+!i10b 1
+!s100 V76NPM5gQ;ai5^]ZbCZEh2
+I6I>[b=_GQ4LX1;dbfB6S_3
+R8
+w1681263872
+8Complex_MUX2x1.v
+FComplex_MUX2x1.v
+!i122 8
+L0 1 13
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R5
+n@complex_@m@u@x2x1
+vdelay_unit
+R7
+!i10b 1
+!s100 <<23E]A?mMJaRKELieQP53
+ImIXZ3`KkU3nh;f62HZco13
+R8
+w1682147070
+8delay_unit.v
+Fdelay_unit.v
+!i122 8
+L0 1 16
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R5
+vMemory_Shifter
+R7
+!i10b 1
+!s100 7<jVdc@aa<QXZ@8hb<5cU0
+ISR6Q:P39nAP@16VHkP^^c1
+R8
+w1681996009
+8Memory_Shifter.v
+FMemory_Shifter.v
+!i122 8
+L0 1 28
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R5
+n@memory_@shifter
+vMultiplier
+R7
+!i10b 1
+!s100 HN5^?@^7:F[UZd8KMU;DM2
+ILWF82<cB>S<BIcX8eAaJ=1
+R8
+w1681323094
+8Multiplier.v
+FMultiplier.v
+!i122 8
+L0 1 8
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R5
+n@multiplier
+vMUX1_Control_unit
+R7
+!i10b 1
+!s100 VEWeHl@0hJnY]VSAG4Dok1
+IcLkm539ZgM=YhUgfSBSVH0
+R8
+w1681745639
+8MUX1_Control_unit.v
+FMUX1_Control_unit.v
+!i122 8
+L0 1 109
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R5
+n@m@u@x1_@control_unit
+vSDF_Stage
+R7
+!i10b 1
+!s100 EK6E:e_O7YGSLMgJL>GB^3
+IAE7^<0PA5;JVa@m>:n=BN2
+R8
+w1682921555
+8SDF_Stage.v
+FSDF_Stage.v
+!i122 8
+L0 1 155
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R5
+n@s@d@f_@stage
+vTop_controller
+R7
+!i10b 1
+!s100 kKj?Rb^c`=R9Dji_:Qa_`1
+I^MA=0AOQ>UZgOE_Zooi8Y1
+R8
+w1683633002
+8Top_controller.v
+FTop_controller.v
+!i122 8
+L0 2 224
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R5
+n@top_controller
+vTop_FFT
+R7
+!i10b 1
+!s100 LRe1Wh`CDmChGC5UIAA4T3
+Iz_@==?=In5V7VLJ?JE^cN2
+R8
+w1683632529
+8Top_FFT.v
+FTop_FFT.v
+!i122 8
+L0 1 157
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R5
+n@top_@f@f@t
+vTop_FFT_tb
+R7
+!i10b 1
+!s100 c2nWze7_:6S[l_?cm4J9M1
+I]i>LWgn^]ZlY:7[2CzBQa0
+R8
+w1683632635
+8Top_FFT_tb.v
+FTop_FFT_tb.v
+!i122 8
+L0 2 109
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R5
+n@top_@f@f@t_tb
+vTwiddle_Address_gen
+R7
+!i10b 1
+!s100 BC;?VWJ]@lCh18I23G;Fo3
+I^igS`<gQ:HJS6VcHmTBBo2
+R8
+w1682192233
+8Twiddle_Address_gen.v
+FTwiddle_Address_gen.v
+!i122 8
+L0 1 57
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R5
+n@twiddle_@address_gen
+vTwiddle_Factor
+R7
+!i10b 1
+!s100 RMKQ:AikI8ISIni3aoJTf3
+IhJLa>?hEXg9=E:0f=FS_i2
+R8
+w1682304318
+8Twiddle_Factor.v
+FTwiddle_Factor.v
+!i122 8
+L0 1 21
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R5
+n@twiddle_@factor

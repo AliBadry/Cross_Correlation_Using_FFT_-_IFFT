@@ -1,0 +1,2 @@
+1- you should change the twiddle factor when changing the fixed point size or the NFFT
+2- change the directory of the twiddle factor text file in the twiddle_factor.v when changing its path or you could include the files in the top module files

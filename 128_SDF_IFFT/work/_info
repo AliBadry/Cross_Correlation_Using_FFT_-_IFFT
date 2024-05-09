@@ -1,0 +1,343 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Aloshka/Graduation Project/Digital/synch and coeff estimation/RTL/xcorrelation/128_SDF_IFFT
+T_opt
+Z1 !s110 1683633823
+VAWOSLFfiB6VgbFMleL2151
+04 11 4 work Top_IFFT_tb fast 0
+=1-c01850960e99-645a369f-d1-5d5c
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vButterfly
+Z3 !s110 1683633822
+!i10b 1
+!s100 EFzX9IEFdHJ`TUZhgD:Bf2
+I:DQ9AcL2;@ITCU7;A_`0X0
+R0
+w1682189151
+8Butterfly.v
+FButterfly.v
+!i122 0
+L0 1 30
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1683633822.000000
+Z7 !s107 delay_unit.v|Twiddle_Factor_IFFT.v|Twiddle_Address_gen_IFFT.v|Top_controller_IFFT.v|Top_IFFT_tb.v|Top_IFFT.v|SDF_Stage_IFFT.v|Multiplier.v|Memory_Shifter.v|MUX1_Control_unit_IFFT.v|Complex_shift_right.v|Complex_Multiplier.v|Complex_MUX2x1.v|Butterfly.v|
+Z8 !s90 -reportprogress|300|Butterfly.v|Complex_MUX2x1.v|Complex_Multiplier.v|Complex_shift_right.v|MUX1_Control_unit_IFFT.v|Memory_Shifter.v|Multiplier.v|SDF_Stage_IFFT.v|Top_IFFT.v|Top_IFFT_tb.v|Top_controller_IFFT.v|Twiddle_Address_gen_IFFT.v|Twiddle_Factor_IFFT.v|delay_unit.v|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@butterfly
+vComplex_Multiplier
+R3
+!i10b 1
+!s100 aza[LVmPWZR=3TkW`:h6G1
+I0=zV>FUIaRP[kccT2SY@C1
+R0
+w1682190347
+8Complex_Multiplier.v
+FComplex_Multiplier.v
+!i122 0
+L0 1 39
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+n@complex_@multiplier
+vComplex_MUX2x1
+R3
+!i10b 1
+!s100 V76NPM5gQ;ai5^]ZbCZEh2
+I6I>[b=_GQ4LX1;dbfB6S_3
+R0
+w1681263872
+8Complex_MUX2x1.v
+FComplex_MUX2x1.v
+!i122 0
+L0 1 13
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+n@complex_@m@u@x2x1
+vComplex_shift_right
+R3
+!i10b 1
+!s100 [mZgoP^P8?=Qgj12j3>WW2
+IMD1XJ`56`B3[4[^4C=Vl]0
+R0
+w1682231709
+8Complex_shift_right.v
+FComplex_shift_right.v
+!i122 0
+L0 1 12
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+n@complex_shift_right
+vdelay_unit
+R1
+!i10b 1
+!s100 <<23E]A?mMJaRKELieQP53
+ImIXZ3`KkU3nh;f62HZco13
+R0
+w1682147070
+8delay_unit.v
+Fdelay_unit.v
+!i122 0
+L0 1 16
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+vMemory_Shifter
+R3
+!i10b 1
+!s100 7<jVdc@aa<QXZ@8hb<5cU0
+ISR6Q:P39nAP@16VHkP^^c1
+R0
+w1681996009
+8Memory_Shifter.v
+FMemory_Shifter.v
+!i122 0
+L0 1 28
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+n@memory_@shifter
+vMultiplier
+R3
+!i10b 1
+!s100 HN5^?@^7:F[UZd8KMU;DM2
+ILWF82<cB>S<BIcX8eAaJ=1
+R0
+w1681323094
+8Multiplier.v
+FMultiplier.v
+!i122 0
+L0 1 8
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+n@multiplier
+vMUX1_Control_unit_IFFT
+R3
+!i10b 1
+!s100 aPVjG^zFGWj6`KR_>jzQj1
+In]dPX<X>5^5>F6ggVXnmL3
+R0
+w1682272125
+8MUX1_Control_unit_IFFT.v
+FMUX1_Control_unit_IFFT.v
+!i122 0
+L0 1 110
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+n@m@u@x1_@control_unit_@i@f@f@t
+vSDF_Stage_IFFT
+R3
+!i10b 1
+!s100 E<>3bWd;khcano?;eXP@@0
+I9>zE2YFaRE3zLM61;02oN3
+R0
+w1682272250
+8SDF_Stage_IFFT.v
+FSDF_Stage_IFFT.v
+!i122 0
+L0 1 212
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+n@s@d@f_@stage_@i@f@f@t
+vTop_controller_IFFT
+R3
+!i10b 1
+!s100 UGjJ4jA@d2CIh;j1h86;F3
+IjYBQ21]zY`kBjjSCCV>PT0
+R0
+w1683633635
+8Top_controller_IFFT.v
+FTop_controller_IFFT.v
+!i122 0
+L0 2 222
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+n@top_controller_@i@f@f@t
+vTop_IFFT
+R3
+!i10b 1
+!s100 2MF0[8g9fmADHi8PIT1Ca0
+ITQ<nY:[_[7lEZCGAY[DEa0
+R0
+w1683633760
+8Top_IFFT.v
+FTop_IFFT.v
+!i122 0
+L0 1 174
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+n@top_@i@f@f@t
+vTop_IFFT_tb
+R3
+!i10b 1
+!s100 ?0G;C`C13oYaIQ[7aj2Wb2
+I3UhY802T0oWKQE13mf8411
+R0
+w1683633789
+8Top_IFFT_tb.v
+FTop_IFFT_tb.v
+!i122 0
+L0 2 109
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+n@top_@i@f@f@t_tb
+vTwiddle_Address_gen_IFFT
+R3
+!i10b 1
+!s100 Gm=8eZ2TQ=Mb:ghBH8hz>3
+IDmK?OCPM1@5DnlJEchl[^0
+R0
+w1682272311
+8Twiddle_Address_gen_IFFT.v
+FTwiddle_Address_gen_IFFT.v
+!i122 0
+L0 1 59
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+n@twiddle_@address_gen_@i@f@f@t
+vTwiddle_Factor_IFFT
+R1
+!i10b 1
+!s100 GP9ADYDm4UdEnJY0A>b`k0
+IjM<m:bc^fYT=b6lAgg40i2
+R0
+w1682304330
+8Twiddle_Factor_IFFT.v
+FTwiddle_Factor_IFFT.v
+!i122 0
+L0 1 21
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R2
+n@twiddle_@factor_@i@f@f@t

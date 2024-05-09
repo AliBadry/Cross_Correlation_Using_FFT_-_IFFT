@@ -1,0 +1,156 @@
+# Reading pref.tcl
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim -gui . 
+# Start time: 11:45:32 on May 16,2023
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# Error loading design
+# End time: 11:45:32 on May 16,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+do run.do
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 11:45:37 on May 16,2023
+# vlog -reportprogress 300 ./128_SDF_FFT/Butterfly.v ./128_SDF_FFT/Complex_MUX2x1.v ./128_SDF_FFT/Complex_Multiplier.v ./128_SDF_FFT/MUX1_Control_unit.v ./128_SDF_FFT/Memory_Shifter.v ./128_SDF_FFT/Multiplier.v ./128_SDF_FFT/SDF_Stage.v ./128_SDF_FFT/Top_FFT.v ./128_SDF_FFT/Top_FFT_tb.v ./128_SDF_FFT/Top_controller.v ./128_SDF_FFT/Twiddle_Address_gen.v ./128_SDF_FFT/Twiddle_Factor.v ./128_SDF_FFT/delay_unit.v 
+# -- Compiling module Butterfly
+# -- Compiling module Complex_MUX2x1
+# -- Compiling module Complex_Multiplier
+# -- Compiling module MUX1_Control_unit
+# -- Compiling module Memory_Shifter
+# -- Compiling module Multiplier
+# -- Compiling module SDF_Stage
+# -- Compiling module Top_FFT
+# -- Compiling module Top_FFT_tb
+# -- Compiling module Top_controller
+# -- Compiling module Twiddle_Address_gen
+# -- Compiling module Twiddle_Factor
+# -- Compiling module delay_unit
+# 
+# Top level modules:
+# 	Top_FFT_tb
+# End time: 11:45:38 on May 16,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 11:45:38 on May 16,2023
+# vlog -reportprogress 300 ./128_SDF_IFFT/Butterfly.v ./128_SDF_IFFT/Complex_MUX2x1.v ./128_SDF_IFFT/Complex_Multiplier.v ./128_SDF_IFFT/Complex_shift_right.v ./128_SDF_IFFT/MUX1_Control_unit_IFFT.v ./128_SDF_IFFT/Memory_Shifter.v ./128_SDF_IFFT/Multiplier.v ./128_SDF_IFFT/SDF_Stage_IFFT.v ./128_SDF_IFFT/Top_IFFT.v ./128_SDF_IFFT/Top_IFFT_tb.v ./128_SDF_IFFT/Top_controller_IFFT.v ./128_SDF_IFFT/Twiddle_Address_gen_IFFT.v ./128_SDF_IFFT/Twiddle_Factor_IFFT.v ./128_SDF_IFFT/delay_unit.v 
+# -- Compiling module Butterfly
+# -- Compiling module Complex_MUX2x1
+# -- Compiling module Complex_Multiplier
+# -- Compiling module Complex_shift_right
+# -- Compiling module MUX1_Control_unit_IFFT
+# -- Compiling module Memory_Shifter
+# -- Compiling module Multiplier
+# -- Compiling module SDF_Stage_IFFT
+# -- Compiling module Top_IFFT
+# -- Compiling module Top_IFFT_tb
+# -- Compiling module Top_controller_IFFT
+# -- Compiling module Twiddle_Address_gen_IFFT
+# -- Compiling module Twiddle_Factor_IFFT
+# -- Compiling module delay_unit
+# 
+# Top level modules:
+# 	Top_IFFT_tb
+# End time: 11:45:38 on May 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 11:45:38 on May 16,2023
+# vlog -reportprogress 300 Complex_Multiplier.v Complex_conjugate.v Multiplier.v delay_unit.v xcorr.v xcorr_tb.v 
+# -- Compiling module Complex_Multiplier
+# -- Compiling module Complex_conjugate
+# -- Compiling module Multiplier
+# -- Compiling module delay_unit
+# -- Compiling module xcorr
+# -- Compiling module xcorr_tb
+# 
+# Top level modules:
+# 	xcorr_tb
+# End time: 11:45:38 on May 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.xcorr_tb 
+# Start time: 11:45:38 on May 16,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.xcorr_tb(fast)
+# Loading work.xcorr(fast)
+# Loading work.Top_FFT(fast)
+# Loading work.SDF_Stage(fast)
+# Loading work.Complex_MUX2x1(fast)
+# Loading work.Memory_Shifter(fast)
+# Loading work.delay_unit(fast)
+# Loading work.Butterfly(fast)
+# Loading work.delay_unit(fast__1)
+# Loading work.MUX1_Control_unit(fast)
+# Loading work.Twiddle_Address_gen(fast)
+# Loading work.Twiddle_Factor(fast)
+# Loading work.Complex_Multiplier(fast)
+# Loading work.Multiplier(fast)
+# Loading work.delay_unit(fast__2)
+# Loading work.SDF_Stage(fast__1)
+# Loading work.Memory_Shifter(fast__1)
+# Loading work.MUX1_Control_unit(fast__1)
+# Loading work.Twiddle_Address_gen(fast__1)
+# Loading work.SDF_Stage(fast__2)
+# Loading work.Memory_Shifter(fast__2)
+# Loading work.MUX1_Control_unit(fast__2)
+# Loading work.Twiddle_Address_gen(fast__2)
+# Loading work.SDF_Stage(fast__3)
+# Loading work.Memory_Shifter(fast__3)
+# Loading work.MUX1_Control_unit(fast__3)
+# Loading work.Twiddle_Address_gen(fast__3)
+# Loading work.SDF_Stage(fast__4)
+# Loading work.Memory_Shifter(fast__4)
+# Loading work.MUX1_Control_unit(fast__4)
+# Loading work.Twiddle_Address_gen(fast__4)
+# Loading work.SDF_Stage(fast__5)
+# Loading work.Memory_Shifter(fast__5)
+# Loading work.MUX1_Control_unit(fast__5)
+# Loading work.Twiddle_Address_gen(fast__5)
+# Loading work.SDF_Stage(fast__6)
+# Loading work.Memory_Shifter(fast__6)
+# Loading work.MUX1_Control_unit(fast__6)
+# Loading work.Twiddle_Address_gen(fast__6)
+# Loading work.Top_controller(fast)
+# Loading work.Complex_conjugate(fast)
+# Loading work.Top_IFFT(fast)
+# Loading work.Complex_shift_right(fast)
+# Loading work.SDF_Stage_IFFT(fast)
+# Loading work.MUX1_Control_unit_IFFT(fast)
+# Loading work.Twiddle_Address_gen_IFFT(fast)
+# Loading work.Twiddle_Factor_IFFT(fast)
+# Loading work.SDF_Stage_IFFT(fast__1)
+# Loading work.MUX1_Control_unit_IFFT(fast__1)
+# Loading work.Twiddle_Address_gen_IFFT(fast__1)
+# Loading work.SDF_Stage_IFFT(fast__2)
+# Loading work.MUX1_Control_unit_IFFT(fast__2)
+# Loading work.Twiddle_Address_gen_IFFT(fast__2)
+# Loading work.SDF_Stage_IFFT(fast__3)
+# Loading work.MUX1_Control_unit_IFFT(fast__3)
+# Loading work.Twiddle_Address_gen_IFFT(fast__3)
+# Loading work.SDF_Stage_IFFT(fast__4)
+# Loading work.MUX1_Control_unit_IFFT(fast__4)
+# Loading work.Twiddle_Address_gen_IFFT(fast__4)
+# Loading work.SDF_Stage_IFFT(fast__5)
+# Loading work.MUX1_Control_unit_IFFT(fast__5)
+# Loading work.Twiddle_Address_gen_IFFT(fast__5)
+# Loading work.SDF_Stage_IFFT(fast__6)
+# Loading work.MUX1_Control_unit_IFFT(fast__6)
+# Loading work.Twiddle_Address_gen_IFFT(fast__6)
+# Loading work.Top_controller_IFFT(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'shift_mag'. The port definition is at: ./128_SDF_IFFT/Complex_shift_right.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /xcorr_tb/DUT/IFFT1/SHIFT_RIGHT File: ./128_SDF_IFFT/Top_IFFT.v Line: 29
+# ** Note: $stop    : xcorr_tb.v(107)
+#    Time: 5130 ns  Iteration: 0  Instance: /xcorr_tb
+# Break in Module xcorr_tb at xcorr_tb.v line 107
+# End time: 12:33:51 on May 16,2023, Elapsed time: 0:48:13
+# Errors: 0, Warnings: 1
